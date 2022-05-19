@@ -11,11 +11,19 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 44px;
-        // text-align: center;
         letter-spacing: 13px;
         text-transform: uppercase;
         color: #FFFFFF;
         opacity: 0.8;
         text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+   .abteam-img {
+        margin-top: 59px;
+        height: 233px;
+         margin-bottom: 61px;
     }
 }

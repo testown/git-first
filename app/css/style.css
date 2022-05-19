@@ -778,7 +778,7 @@
   font-size: 16px;
   line-height: 20px;
   text-align: right;
-  color: #FFFFFF;
+  color: #24A3FF;
   margin-right: 1px;
   margin-left: 15px;
   position: relative;
@@ -794,12 +794,21 @@
   content: '';
   height: 2px;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #24A3FF;
   position: absolute;
   top: 21px;
 }
 
 .abnav__item:hover::after {
+  opacity: 1;
+}
+
+.abnav__item-active {
+  color: #F0145A;
+}
+
+.abnav__item-active:after {
+  background-color: #F0145A;
   opacity: 1;
 }
 
@@ -845,6 +854,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 18px;
   }
   .ablogo-hamburger__logo {
     width: 130px;
@@ -1704,6 +1714,7 @@
 .abtop-text__right {
   border-left: 4px solid #E6E6F0;
   padding-left: 30px;
+  padding-top: 10px;
 }
 
 .abtop-text__title {
@@ -1715,8 +1726,8 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  margin-bottom: 28px;
+  margin-top: 26px;
 }
 
 .abtop-text__title-txt {
@@ -1724,7 +1735,7 @@
   font-size: 19px;
   line-height: 30px;
   color: #000000;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .abtop-text__num {
@@ -1744,10 +1755,24 @@
   font-size: 16px;
   line-height: 20px;
   color: #323264;
+  margin-top: 10px;
 }
 
 .abtop-text__item:not(:last-child) {
   margin-bottom: 40px;
+}
+
+/*========================================*/
+@media screen and (min-width: 768px) {
+  .abtop-text__title {
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 66px;
+    margin-bottom: 26px;
+  }
+  .abtop-text__title-mrtop {
+    margin-top: 31px;
+  }
 }
 
 .abteam-img {
@@ -1778,6 +1803,14 @@
   text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
 }
 
+@media screen and (min-width: 768px) {
+  .abteam-img {
+    margin-top: 59px;
+    height: 233px;
+    margin-bottom: 61px;
+  }
+}
+
 .abslider-title {
   font-weight: 700;
   font-size: 14px;
@@ -1787,6 +1820,7 @@
   text-transform: uppercase;
   color: #323264;
   padding-top: 30px;
+  padding-top: 67px;
 }
 
 .slider {
@@ -1905,7 +1939,7 @@
 /*====================*/
 @media screen and (min-width: 768px) {
   .slider {
-    margin-top: 81px;
+    margin-top: 28px;
     margin-left: 59px;
     margin-right: 61px;
   }
