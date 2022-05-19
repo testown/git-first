@@ -1,0 +1,101 @@
+.logo-title {
+    margin-top: 62px;
+    margin-bottom: 29px;
+    display: flex;
+    justify-content: center;
+    &__text {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $purp;
+    }
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    &__items {
+        height: 120px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__items:nth-child(1) {
+        background-color: #1C4280;
+    }
+    &__items:nth-child(2) {
+        background-color: #143646;
+    }
+    &__items:nth-child(3) {
+        background-color: #F48B30;
+    }
+    &__items:nth-child(4) {
+        background-color: #9E4DC3;
+    }
+    &__items:nth-child(5) {
+        background-color: #FD9339;
+    }
+    &__items:nth-child(6) {
+        background-color: #E2E2E4;
+    }
+    &__items:nth-child(7) {
+        display: none;
+        background-color: #C71C36;
+    }
+    &__items:nth-child(8) {
+        display: none;
+        background-color: #DCF3F9;
+    }
+    &__items:nth-child(9) {
+        display: none;
+        background-color: #EAEAEA;
+    }
+    &__items:nth-child(10) {
+        display: none;
+        background-color: #282240;
+    }
+    &__items:nth-child(11) {
+        display: none;
+        background-color: #1D4568;
+    }
+    &__items:nth-child(12) {
+        display: none;
+        background-color: #000000;
+    }
+}
+
+
+/*=================*/
+
+@media screen and (min-width: 768px) {
+    .logos__items {
+        width: 33.333%;
+        &:nth-child(7) {
+            display: flex;
+        }
+        &:nth-child(8) {
+            display: flex;
+        }
+        &:nth-child(9) {
+            display: flex;
+        }
+        &:nth-child(10) {
+            display: flex;
+        }
+        &:nth-child(11) {
+            display: flex;
+        }
+        &:nth-child(12) {
+            display: flex;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logos__items {
+        width: 25%;
+    }
+}

@@ -1,0 +1,23 @@
+.ablang {
+    padding: 10px 15px;
+    &__item {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #B3B3BA;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 5px;
+        border-radius: 8px;
+        &-red {
+            background-color: #F0145A;
+            color: #FFFFFF;
+        }
+        &:not(&-red):hover {
+            background-color: #F5F5FA;
+        }
+    }
+}

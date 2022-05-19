@@ -1,0 +1,127 @@
+.slider {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.item {
+    border-radius: 12px;
+    background-color: #F5F5FA;
+}
+
+.slide__image {
+    height: 500px;
+    & img {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px 12px 0px 0px;
+    }
+}
+
+.slide__content {
+    padding: 30px;
+    & p:nth-child(1) {
+        margin-bottom: 2px;
+    }
+    & p:nth-child(2) {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 32px;
+    }
+    & p:nth-child(3) {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #B3B3BA;
+        margin-bottom: 5px;
+    }
+    & p:nth-child(4) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #B3B3BA;
+    }
+}
+
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-top: 21px;
+    li {
+        padding: 0 8px;
+    }
+    button {
+        height: 16px;
+        width: 16px;
+        border: none;
+        border-radius: 50%;
+        background-color: #24A3FF;
+        opacity: 0.2;
+        font-size: 0;
+
+        &:hover {
+            opacity: 1;
+        }
+    }   
+    .slick-active {
+        button {
+            opacity: 1;
+        }
+    }
+}
+
+/*====================*/
+@media screen and (min-width: 768px) {
+    .slider {
+        margin-top: 81px;
+        margin-left: 59px;
+        margin-right: 61px;
+    }
+    .slide__content p:nth-child(1) {
+        margin-bottom: 6px;
+    }
+    .slide__content p:nth-child(2) {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .item-wrap {
+        display: flex;
+    }
+    .slide__image {
+        width: 44%;
+        height: auto;
+        img {
+            height: 528px;
+            border-radius: 12px 0px 0px 12px;
+        }
+    }
+    .slide__content {
+        width: 56%;
+        padding-top: 30px;
+        padding-right: 25px;
+        padding-bottom: 0px;
+        padding-left: 34px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slide__image {
+        width: 34%;
+        & img {
+            height: 348px;
+        }
+    }
+}
