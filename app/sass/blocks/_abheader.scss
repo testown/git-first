@@ -96,14 +96,22 @@
         margin: 15px 4px;
         display: inline-block;
     }
-    &__services {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #323264;
-    text-decoration: none;
-    }  
+    // &__services {
+    // display: inline-block;
+    // font-weight: 400;
+    // font-size: 20px;
+    // line-height: 24px;
+    // color: #323264;
+    // text-decoration: none;
+    // }  
+    &__about-us {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #323264;
+        text-decoration: none;
+    }
     &__right {
         margin: 12.5px 15px;
         &:hover {
@@ -245,14 +253,29 @@
         height: 60px;
         }
         &__slash {
-            display: none;
+            // display: none;
+            margin: 18px 0px;
+            display: inline-block;
+            height: 42px;
+            width: 27px;
         }
-        &__services {
-            display: none;
+        // &__services {
+        //     display: none;
+        // }
+        &__about-us {
+            // display: block;
+            margin-top: 15px;
+            font-size: 36px;
+            line-height: 44px;
         }
         &__right {
             display: none;
         }
+        &__left {
+            align-items: flex-start;
+        }
+
+
     }
 }
 
