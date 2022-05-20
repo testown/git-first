@@ -1029,6 +1029,8 @@
 
 .slide__image {
   height: 500px;
+  background-color: black;
+  border-radius: 12px 0px 0px 12px;
 }
 
 .slide__image img {
@@ -1176,6 +1178,7 @@
 }
 
 .logos {
+  background-color: #ca7e3b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1926,6 +1929,8 @@
 
 .slide__image {
   height: 500px;
+  background-color: #51be69;
+  border-radius: 12px 0px 0px 12px;
 }
 
 .slide__image img {
