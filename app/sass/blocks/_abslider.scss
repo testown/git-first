@@ -126,6 +126,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .slider {
+        margin-top: 41px;
+        margin-left: 58px;
+        padding-bottom: 42px;
+    }
     .item-wrap {
         display: flex;
     }
@@ -146,11 +151,3 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .slide__image {
-        width: 34%;
-        & img {
-            height: 348px;
-        }
-    }
-}

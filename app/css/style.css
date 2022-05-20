@@ -817,14 +817,6 @@
   .abgradient {
     background-size: 116%, cover;
   }
-  .abtop__text {
-    width: auto;
-    margin-top: 272px;
-  }
-  .abtop__arrow-down {
-    margin-top: 417px;
-    margin-bottom: 91px;
-  }
   .abtop-header_margin-l-r {
     margin: 0 47px;
     padding-top: 41px;
@@ -882,18 +874,17 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .abtop__text {
-    margin-top: 250px;
-  }
-  .abtop__arrow-down {
-    margin-top: 288px;
-    margin-bottom: 90px;
-  }
   .ablogo-hamburger__logo {
-    margin-top: 0px;
+    margin-top: 10px;
     margin-right: 0;
     margin-bottom: -8px;
     margin-left: 13px;
+  }
+  .ablogo-hamburger__slash {
+    margin: 15px 0px;
+  }
+  .ablogo-hamburger__about-us {
+    margin-top: 11px;
   }
   .abnav {
     margin-top: 7px;
@@ -1774,6 +1765,14 @@
 
 /*========================================*/
 @media screen and (min-width: 768px) {
+  .abtop__text {
+    width: auto;
+    margin-top: 272px;
+  }
+  .abtop__arrow-down {
+    margin-top: 417px;
+    margin-bottom: 91px;
+  }
   .abtop-text__title {
     font-size: 38px;
     line-height: 46px;
@@ -1785,9 +1784,52 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .abtop {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .abtop__text {
+    margin-top: 250px;
+  }
+  .abtop__arrow-down {
+    margin-top: 288px;
+    margin-bottom: 90px;
+  }
+  .abtop-text__left {
+    width: 84%;
+    padding-right: 31px;
+  }
+  .abtop-text__right {
+    margin-top: 57px;
+  }
+  .abtop-text__title-mrtop {
+    margin-top: -3px;
+  }
+  .abtop-text2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .abtop-text2__left {
+    width: 54%;
+  }
+  .abtop-text2__right {
+    width: 50%;
+    padding-left: 74px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .abtop-text2__left {
+    width: 71%;
+    padding-left: 119px;
+  }
+}
+
 .abteam-img {
   height: 114px;
-  background: url("../../img/about-team1.jpg") center 0 no-repeat;
+  background: url("../img/about-team1.jpg") center 0 no-repeat;
   background-size: 100%, cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1815,9 +1857,25 @@
 
 @media screen and (min-width: 768px) {
   .abteam-img {
+    background: url("../img/about-team2.jpg") center 0 no-repeat;
     margin-top: 59px;
     height: 233px;
     margin-bottom: 61px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .abteam-img {
+    background: url("../img/about-team3.jpg") center 0 no-repeat;
+    margin-top: 40px;
+    height: 313px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .abteam-img {
+    margin-top: 40px;
+    height: 437px;
   }
 }
 
@@ -1963,6 +2021,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .slider {
+    margin-top: 41px;
+    margin-left: 58px;
+    padding-bottom: 42px;
+  }
   .item-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1982,15 +2045,6 @@
     padding-right: 25px;
     padding-bottom: 0px;
     padding-left: 34px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .slide__image {
-    width: 34%;
-  }
-  .slide__image img {
-    height: 348px;
   }
 }
 
@@ -2191,7 +2245,6 @@
     height: 6px;
     width: 6px;
     background-color: #B3B3BA;
-    /*#E6E6F0;*/
     border-radius: 50%;
     position: absolute;
     left: 113px;
@@ -2206,10 +2259,32 @@
   .abfooter {
     padding-bottom: 50px;
   }
+  .abfooter-grid__one {
+    grid-column: 1/2;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   .abfooter-grid__two {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .abfooter-grid__three {
+    grid-column: 1/2;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .abtop-text__left {
+    width: 66%;
+    padding-right: 31px;
+    padding-left: 117px;
   }
 }
 

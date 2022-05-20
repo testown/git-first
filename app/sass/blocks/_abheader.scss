@@ -96,14 +96,6 @@
         margin: 15px 4px;
         display: inline-block;
     }
-    // &__services {
-    // display: inline-block;
-    // font-weight: 400;
-    // font-size: 20px;
-    // line-height: 24px;
-    // color: #323264;
-    // text-decoration: none;
-    // }  
     &__about-us {
         display: inline-block;
         font-weight: 400;
@@ -168,53 +160,6 @@
     .abgradient {
         background-size: 116%, cover;
     }
-    .abtop {
-        &__text {
-            width: auto;
-            margin-top: 272px;
-        }
-        &__arrow-down {
-            margin-top: 417px;
-            margin-bottom: 91px;
-        }
-    }    
-    // .advantage {
-    //     &__btn {
-    //         font-size: 38px;
-    //         line-height: 46px;
-    //     }
-    //     &__list {
-    //         margin-bottom: 44px;
-    //     }
-    // }
-    // .description {
-    //     padding-top: 60px;
-    //     &__title {
-    //         font-size: 30px;
-    //         line-height: 37px;
-    //     }
-    //     &__text {
-    //         margin-bottom: 60px;
-    //     }
-    // }
-    // .cards__title {
-    //     font-size: 38px;
-    //     line-height: 46px;
-    //     margin-bottom: 29px;
-    // }
-    // .cards {
-    //     grid-template-columns: repeat(2, 1fr);
-    //     column-gap: 56px;
-    //     &__one {
-    //         grid-column: 1/3;
-    //     }
-    //     &__title {
-    //         margin-bottom: 4px;
-    //     }
-    //     &__item {
-    //         margin-top: 58px;
-    //     }
-    // }  
     .abtop-header {
        &_margin-l-r {
            margin: 0 47px;
@@ -253,17 +198,12 @@
         height: 60px;
         }
         &__slash {
-            // display: none;
             margin: 18px 0px;
             display: inline-block;
             height: 42px;
             width: 27px;
         }
-        // &__services {
-        //     display: none;
-        // }
         &__about-us {
-            // display: block;
             margin-top: 15px;
             font-size: 36px;
             line-height: 44px;
@@ -274,57 +214,24 @@
         &__left {
             align-items: flex-start;
         }
-
-
     }
 }
 
 @media screen and (min-width: 1024px) {
-    // .gradient {
-    //     background-size: 65%, cover;
-    // }
-    .abtop {
-        &__text {
-            margin-top: 250px;
+
+    .ablogo-hamburger {
+        &__logo {
+            margin-top: 10px;
+            margin-right: 0;
+            margin-bottom: -8px;
+            margin-left: 13px;
         }
-        &__arrow-down {
-            margin-top: 288px;
-            margin-bottom: 90px;
+        &__slash {
+            margin: 15px 0px;
         }
-    }
-    // .advantage {
-    //     display: grid;
-    //     grid-template-columns: 1fr 1fr;
-    //     &__list {
-    //         flex-direction: column;
-    //         align-items: flex-end;
-    //         border-right: 4px solid rgba(255, 255, 255, 0.3);
-    //         padding-right: 33px;
-    //         margin-right: 13px;
-    //         margin-bottom: 59px;
-    //     }
-    //     &__btn {
-    //         margin-top: 15px;
-    //         margin-bottom: 15px;
-    //     }
-    // }
-    // .description {
-    //     border-top: none;
-    //     padding-top: 8px;
-    //     padding-left: 48px;
-    // }
-    // .cards {
-    //     grid-template-columns: repeat(3, 1fr);
-    //     column-gap: 60px;
-    //     &__one {
-    //         grid-column: 1/4;
-    //     }
-    // }    
-    .ablogo-hamburger__logo {
-        margin-top: 0px;
-        margin-right: 0;
-        margin-bottom: -8px;
-        margin-left: 13px;
+        &__about-us {
+            margin-top: 11px;
+        }
     }
     .abnav {
         margin-top: 7px;
@@ -351,8 +258,3 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    // .cards__one {
-    // grid-row: 2/3;
-    // }
-}

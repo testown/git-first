@@ -1,6 +1,6 @@
 .abteam-img {
     height: 114px;
-    background: url('../../img/about-team1.jpg') center 0 no-repeat;
+    background: url('../img/about-team1.jpg') center 0 no-repeat;
     background-size: 100%, cover;
     display: flex;
     justify-content: center;
@@ -22,8 +22,24 @@
 
 @media screen and (min-width: 768px) {
    .abteam-img {
+        background: url('../img/about-team2.jpg') center 0 no-repeat;
         margin-top: 59px;
         height: 233px;
          margin-bottom: 61px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .abteam-img {
+        background: url('../img/about-team3.jpg') center 0 no-repeat;
+        margin-top: 40px;
+        height: 313px;
+     }
+ }
+ 
+ @media screen and (min-width: 1440px) {
+    .abteam-img {
+        margin-top: 40px;
+        height: 437px;
     }
 }
