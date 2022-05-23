@@ -385,7 +385,8 @@
 }
 
 .logo-hamburger__right {
-  margin: 12.5px 15px;
+  margin: 13px 15px;
+  height: 33px;
 }
 
 .logo-hamburger__right:hover {
@@ -754,7 +755,8 @@
 }
 
 .ablogo-hamburger__right {
-  margin: 12.5px 15px;
+  height: 33px;
+  margin: 13px 15px;
 }
 
 .ablogo-hamburger__right:hover {
