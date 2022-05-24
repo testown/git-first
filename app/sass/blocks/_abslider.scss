@@ -21,7 +21,7 @@
 
 .abitem {
     border-radius: 12px;
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
     height: 90px;
     width: 255px;
 }
@@ -32,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .abitem-wrap__img {
@@ -101,7 +100,7 @@
         font-size: 0;
 
         &:hover {
-            opacity: 1;
+            opacity: 0.6;
         }
     }   
     .slick-active {
